@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "microsoft-agent-framework": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "47f9e705f2a609ded19877db4d6c4691aa83a8415779b7fd4fb09e14cefd2c27"
+    },
+    "microsoft-skill-creator": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "154dc5be88c22647c53cdd32f83c7ca9757a86bb2da9b93b435b8fc26a9934b7"
+    }
+  }
+}

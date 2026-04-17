@@ -1,0 +1,4 @@
+interface:
+  display_name: "Microsoft Migration Orchestrator"
+  short_description: "Plan and execute Microsoft platform migrations"
+  default_prompt: "Use $microsoft-migration-orchestrator to analyze this project, map non-Microsoft tools to Microsoft equivalents, create a migration plan, execute it, and review the result."
