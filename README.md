@@ -73,6 +73,8 @@ Every mapping should still be verified with Microsoft Learn MCP before implement
 
 Use the Microsoft Azure Provisioning Engineer role before creating or updating Azure resources.
 
+For Azure resource creation, the provisioning agent should ask back and forth for requirements instead of assuming values. It asks one question at a time, keeps an Azure requirements ledger, and only moves to preview or live provisioning after subscription, region, resource group, naming, SKU, access model, identity/secrets, observability, deployment method, and approval are clear.
+
 Minimum Azure CLI preflight:
 
 ```powershell
@@ -93,7 +95,7 @@ Ask Codex to use the Microsoft migration orchestrator for a target project. A go
 Use the Microsoft migration orchestrator to analyze this project and replace non-Microsoft hosting, auth, database, AI, and CI/CD choices with Microsoft equivalents. Start with inventory and a plan before making code changes.
 ```
 
-For Azure resource creation, include the intended subscription, region, resource group, naming prefix, and whether live provisioning is approved.
+For Azure resource creation, you can provide all requirements up front, or let the provisioning agent interview you one answer at a time.
 
 ## Repository Notes
 

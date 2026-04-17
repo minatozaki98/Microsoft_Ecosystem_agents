@@ -80,6 +80,7 @@ If subagents are unavailable, read each role prompt and perform the same pass se
 
 4. Provision Azure resources when required:
    - Dispatch `../../agents/microsoft-azure-provisioning-engineer.md` before live Azure resource creation or infrastructure-as-code changes.
+   - If Azure requirements are incomplete, let the provisioning role interview the user one question at a time and maintain an Azure requirements ledger.
    - Confirm Azure CLI authentication, subscription, tenant, region, resource group, SKU, tags, network posture, and cost assumptions.
    - Prefer Bicep or Azure Developer CLI files for repeatable infrastructure.
    - Use Azure CLI `what-if` or `--confirm-with-what-if` for Bicep/ARM deployments when possible.
